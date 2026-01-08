@@ -11,7 +11,8 @@ I have uploaded 4 files to help you get going. Feel free to use as is, or modify
 
 4) The JSON format of file that is sent:
 
-JSON:  key name & value's data type: 
+JSON:  key name & value's data type for exported Events: 
+
     id          UUID: (e.g. 40723612-6F3A-475E-8DA8-ADE846734541)
     timestamp   Date: For now, outputs Z (e.g. 2025-01-06 04:11:44.123456)
     latitude    Double: decimal degrees (S are -values) 
@@ -24,3 +25,5 @@ JSON:  key name & value's data type:
     boatName    String
     venueName   String  
     userName    String
+    
+User, Weather, and Sails should be same as before ... 
